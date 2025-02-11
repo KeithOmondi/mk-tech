@@ -3,7 +3,7 @@ import Header from '../components/Layout/Header'
 import AboutUs from '../components/Layout/AboutUs'
 import WhyChooseUs from '../components/Layout/WhyChooseUs'
 import SuccessStories from '../components/Layout/SuccessStories'
-import RecentProjects from '../components/Layout/projects'
+import RecentProjects from '../components/Layout/RecentProjects'
 import CTA from '../components/Layout/CTA'
 import Footer from '../components/Layout/Footer'
 
