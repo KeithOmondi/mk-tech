@@ -1,5 +1,6 @@
 import React from "react";
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,16 +16,17 @@ const Footer = () => {
         </div>
 
         {/* Quick Links */}
-        <div>
-          <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
-          <ul className="text-gray-400 space-y-2">
-            <li><a href="/" className="hover:text-blue-400">Home</a></li>
-            <li><a href="/about" className="hover:text-blue-400">About Us</a></li>
-            <li><a href="/services" className="hover:text-blue-400">Services</a></li>
-            <li><a href="/projects" className="hover:text-blue-400">Projects</a></li>
-            <li><a href="/contact" className="hover:text-blue-400">Contact</a></li>
-          </ul>
-        </div>
+        <div className="bg-gray-900 p-5 rounded-lg shadow-lg">
+  <h3 className="text-lg font-semibold text-white mb-4 border-b pb-2">Quick Links</h3>
+  <ul className="flex flex-col gap-2 text-gray-400">
+    <Link to="/" className="hover:text-blue-400 transition duration-300 py-1">Home</Link>
+    <Link to="/about" className="hover:text-blue-400 transition duration-300 py-1">About Us</Link>
+    <Link to="/services" className="hover:text-blue-400 transition duration-300 py-1">Services</Link>
+    {/*<Link to="/projects" className="hover:text-blue-400 transition duration-300 py-1">Projects</Link>*/}
+    <Link to="/contact" className="hover:text-blue-400 transition duration-300 py-1">Contact</Link>
+  </ul>
+</div>
+
 
         {/* Contact Info & Socials */}
         <div>

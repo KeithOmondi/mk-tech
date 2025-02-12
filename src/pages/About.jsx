@@ -159,7 +159,7 @@ const About = () => {
               alt="CTO"
               className="w-32 h-32 rounded-full mx-auto mb-4"
             />
-            <h4 className="text-xl font-semibold">Dennia Keith</h4>
+            <h4 className="text-xl font-semibold">Dennis Keith</h4>
             <p className="text-gray-600">CTO</p>
           </div>
           <div className="p-6 bg-white rounded-lg shadow-md">
