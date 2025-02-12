@@ -1,6 +1,7 @@
 import React from "react";
 import { Laptop, Server, ShieldCheck, Users } from "lucide-react";
 import Navbar from "../components/Layout/Navbar";
+import Footer from "../components/Layout/Footer";
 
 const services = [
   {
@@ -50,6 +51,10 @@ const Services = () => {
         </div>
       </div>
     </section>
+
+    <div>
+      <Footer />
+    </div>
     </>
   );
 };
