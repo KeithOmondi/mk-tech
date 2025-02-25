@@ -162,7 +162,7 @@ const About = () => {
             <h4 className="text-xl font-semibold">Dennis Keith</h4>
             <p className="text-gray-600">CTO</p>
           </div>
-          <div className="p-6 bg-white rounded-lg shadow-md">
+          {/*<div className="p-6 bg-white rounded-lg shadow-md">
             <img
               src="data:image/png;base64,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"
               alt="CMO"
@@ -170,7 +170,7 @@ const About = () => {
             />
             <h4 className="text-xl font-semibold">Michael Johnson</h4>
             <p className="text-gray-600">CMO</p>
-          </div>
+          </div>*/}
         </div>
       </div>
     </div>
